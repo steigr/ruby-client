@@ -6,8 +6,8 @@ require 'inwx/version'
 Gem::Specification.new do |spec|
   spec.name          = "inwx-rb"
   spec.version       = INWX::VERSION
-  spec.authors       = ["Mathias Kaufmann"]
-  spec.email         = ["me@stei.gr"]
+  spec.authors       = ["Mathias Kaufmann","InterNetworX Ltd. & Co. KG"]
+  spec.email         = ["me@stei.gr","info@inwx.de"]
 
   spec.summary       = %q{INWX XML-RPC client.}
   spec.description   = %q{INWX XML-RPC client.}
