@@ -26,20 +26,11 @@ module INWX
     
     def setCookie(cookie)
       self.cookie = cookie
-      fp = File.new("domrobot.tmp", "w")
-      fp.write(cookie)
-      fp.close
     end
     
     def getCookie()
       if self.cookie.length > 2
         return self.cookie
-      end
-      if File.exist?("domrobot.tmp")
-        fp = File.new("domrobot.tmp", "r")
-        cookie = fp.read()
-        fp.close
-        return cookie
       end
     end
     
